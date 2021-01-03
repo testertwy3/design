@@ -1,0 +1,21 @@
+.accordion{
+    margin:10px 0;
+    border:solid 2px #555;
+    .title,.content{
+        padding:5px 10px;
+    }
+    .title{
+        background-color: #555;
+        span{
+            font-weight: bolder;
+            color:#fff;
+        }
+        .icon{
+            float: right;
+        }
+    }
+    .content{
+        background-color: #fff;
+        overflow: hidden;
+    }
+}

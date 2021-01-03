@@ -1,0 +1,68 @@
+// Global 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#555;
+    word-wrap: break-word;
+}
+
+$light:#eee;
+
+a{
+    text-decoration: none;
+    opacity: .6;
+}
+
+a.active{
+    opacity: 1;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+.btn{
+    background-color: #565555;
+    border-radius: 20px;
+    padding:5px 15px;
+    border:none;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    color:#fff;
+}
+
+.btn.active{
+    background-color:#009fff;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.btn-primary{
+    border:solid 1px #009fff;
+}
+
+.btn-primary:hover{
+    background-color:#009fff;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.tooltip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    border-radius: 20px;
+}
+
+// Start Sidebar
+
+.sidebar-twy{}
+
+// End Sidebar

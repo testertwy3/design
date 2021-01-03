@@ -1,0 +1,40 @@
+*{margin:0;padding:0}
+body{font-family: 'Times New Roman', Times, serif;height: 2000px;  scroll-behavior: smooth;color:#555;min-width:700px;max-width: 1500px;}
+.container{width:90%;margin:0 auto}
+
+.svgbackground{width:100%;z-index: -1;position: absolute;top: 0;left: 0;}
+.header .nav {padding:10px}
+.header .nav .logo{color:#fff;font-weight: bolder;}
+.header .nav ul{float:right;display: inline-block;}
+.header .nav ul li{display: inline-block;color:#0fa6f0;cursor: pointer;margin-left: 10px;position: relative;}
+.header .nav ul li::after{content:"";width:0%;border-bottom:solid;display:inline-block;transition:ease-in-out .2s;position: absolute;bottom:-10px;left:0}
+.header .nav ul li:hover::after{width:100%;}
+.header canvas {display: block;cursor: crosshair;}
+
+.section{text-align: center;}
+.section h2{display:inline-block;}
+.section h2::after{width:25%;margin-bottom:10px;display: block;border-bottom:solid #0070ff;;content:""}
+
+.ourteam{text-align: center;}
+.ourteam .card{display: inline-block;box-shadow: 0 0 10px #ddd;width: min-content;word-wrap: break-word;padding: 5px;margin: 5px;overflow: hidden;box-sizing: border-box;vertical-align: top;}
+.ourteam .card .img{width: 300px;height:250px;transition:ease-in-out .2s}
+.ourteam .card .img img{width: 100%;height:100%;}
+.ourteam .card .info{height:0px;transition:ease-in-out .2s;overflow: hidden;text-align: left;}
+
+.portfolio{text-align: center;}
+.portfolio .card{margin:10px;height:300px;width:300px;overflow: hidden;box-shadow: 0 0 10px #ddd;transition:ease-in-out 4s;display:inline-block;scroll-behavior: smooth;}
+.portfolio .card img{width:100%}
+
+.about img{width:40%;float:left}
+.about span{width:50%;float:left;margin-left:2%;padding:10px;}
+
+.contact{margin:10px;padding:5px 0;}
+.contact img{float:right;border-radius: 10px;width:50%;}
+.contact .form{float:left;width:40%;}
+.contact .form input{box-sizing: border-box;box-shadow: 0 0 10px #ddd;;display:block;border:none;color:#888;padding:10px 5px;margin-bottom:10px;border-radius: 5px;width:100%;}
+.contact .form input[type=button]{color:#fff;background-color: #0070ff;cursor: pointer;transition:ease-in-out .2s;width: min-content;padding:5px 20px;}
+.contact .form input:hover{box-shadow: 0 0 10px #0070ff;}
+.contact .form textarea{width: 100%;height:250px;box-sizing: border-box;display:block;border:none;color:#888;padding:5px;margin-bottom:10px;border-radius: 5px;resize:none;box-shadow: 0 0 10px #ddd;}
+
+.margin{margin:10px 0;}
+hr{background: radial-gradient(#0fa6f0,  #fff);height: 2px;border: none;width: 70%;margin:10px auto;border-radius:100%;}

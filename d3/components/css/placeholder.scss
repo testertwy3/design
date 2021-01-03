@@ -1,0 +1,42 @@
+.entry-container {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 200px;
+
+    .input-form {
+        font-size: 20px;
+        position: relative;
+        display: block;
+
+        .require {
+            position: absolute;
+            top: 30%;
+            transform: translate(-50%);
+            right: 0;
+            color: #f00;
+        }
+
+        label {
+            opacity: 0.4;
+            position: absolute;
+            left: 50%;
+            transition: ease-in-out 0.2s;
+            transform: translate(-50%);
+            top: 20%;
+            text-align: center;
+            word-wrap: break-word;
+            width: 100%;
+            color:#fff;
+        }
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px 10px;
+            margin: 10px 0;
+            border: solid;
+            border-color: transparent transparent #aaa transparent;
+            background-color: transparent;
+            color:#fff;
+        }
+    }
+}

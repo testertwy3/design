@@ -1,0 +1,45 @@
+// Start Sidebar
+.sidebar-container{
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+    position: relative;
+    transition: ease-in-out .2s;
+    .sidebar-btn-trigger{
+        position: absolute;
+        top: 20px;
+        right: -20px;
+        z-index: 999;
+        background-color: #fff;
+        box-shadow: 5px 0 5px #ddd;
+        border-radius: 0 10px 10px 0;
+        font-size: 30px;
+        cursor: pointer;
+        transition: ease-in-out .2s;
+    }
+    .sidebar-btn-trigger:hover{
+        color:#f0f;
+    }
+    .sidebar-twy{
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 0 10px #ddd;
+        overflow:auto;
+        .components{
+            margin: 10px 0;
+            text-align: center;
+            .component{
+                margin: 5px;
+            }
+        }
+    }
+}
+.component{
+    text-align: center;
+    box-shadow: 0 0 5px #ddd;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    height: min-content;
+    cursor: move;
+}
