@@ -339,7 +339,6 @@
             slider($(".slider")[0]);
 
             window.addEventListener("scroll", function (e) {
-                console.log(($(".contact")[0].offsetTop - $(".contact")[0].scrollHeight).toString() + " - " + (window.scrollY).toString())
                 if ($(".contact")[0].offsetTop - $(".contact")[0].scrollHeight <= window.scrollY) {
                     animator({ start: false, selector: $(".contact .part")[0], effect: "slide", duration: .5, direction: "left" });
                     animator({ start: false, selector: $(".contact .part")[1], effect: "slide", duration: .5, direction: "right" });
